@@ -1,0 +1,50 @@
+.book-demo-get-started {
+  width: 219px;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 56px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-success-borderlike);
+}
+.book-demo-get-started:hover {
+  background-color: #5228F5;
+}
+.book-demo-book-demo-link {
+  color: var(--dl-color-gray-black);
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.book-demo-root-class-name1 {
+  margin-left: 0px;
+}
+
+
+.book-demo-root-class-name4 {
+  margin-left: 0px;
+}
+
+
+@media(max-width: 991px) {
+  .book-demo-get-started {
+    display: none;
+  }
+}
+@media(max-width: 767px) {
+  .book-demo-get-started {
+    display: none;
+  }
+}
